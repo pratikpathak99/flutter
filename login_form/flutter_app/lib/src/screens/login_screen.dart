@@ -30,10 +30,7 @@ class LoginScreenState extends State<LoginScreen>{
   }
   Widget emailField(){
 
-
-
     return TextFormField(
-
       keyboardType: TextInputType.emailAddress,
       decoration: InputDecoration(
         labelText: 'Email Address',
